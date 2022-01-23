@@ -9,6 +9,8 @@ terraform {
 }
 provider "aws" {
   region = "us-west-2"
+  access_key = "ASIAXWQUAD5H5LJHSYFJ"
+  secret_key = "90tkUPvClj+2H4q/L/T7/CP0fXKHq62w+Exq3TNb"
 }
 resource "aws_s3_bucket" "bucket" {
   bucket = "sadov-lab-1"
